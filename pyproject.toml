@@ -1,0 +1,25 @@
+[project]
+name = "act-melanoma-neutrophil"
+version = "0.1.0"
+description = "Add your description here"
+requires-python = ">=3.12"
+dependencies = [
+    "anndata>=0.12.10",
+    "imagecodecs>=2026.1.14",
+    "leidenalg>=0.11.0",
+    "matplotlib>=3.10.8",
+    "missingno>=0.5.2",
+    "numpy>=2.4.2",
+    "odfpy>=1.4.1",
+    "openpyxl>=3.1.5",
+    "pandas>=2.3.3",
+    "scanpy>=1.12",
+    "scikit-image>=0.26.0",
+    "scikit-posthocs>=0.12.0",
+    "seaborn>=0.13.2",
+    "setuptools>=82.0.0",
+    "squidpy>=1.6.5",
+    "tifffile>=2026.2.20",
+    "tqdm>=4.67.3",
+    "xlrd>=2.0.2",
+]

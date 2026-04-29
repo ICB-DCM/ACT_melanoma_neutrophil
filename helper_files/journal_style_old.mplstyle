@@ -1,0 +1,45 @@
+# Use LaTeX-style font (if available)
+font.family: sans-serif
+font.sans-serif: Arial, Helvetica, DejaVu Sans
+font.size: 12
+
+# High DPI for journal-quality images
+figure.dpi: 300
+
+# Line styles
+lines.linewidth: 2  # applies to h and v lines as well
+lines.markeredgewidth: 2
+lines.markersize: 6
+
+# Axes properties
+axes.linewidth: 2
+axes.labelsize: 22
+axes.titlesize: 22
+axes.titlepad: 12  # Extra space between title and content
+axes.edgecolor: black
+
+# Automatically adjusting axes
+# axes.autoscale_on: True
+# axes.xmargin: 0.05  # Small margin for better spacing
+# axes.ymargin: 0.1  # Small y-axis margin for clarity
+
+# Tick settings
+xtick.labelsize: 18
+ytick.labelsize: 18
+xtick.major.size: 6
+ytick.major.size: 6
+xtick.major.width: 2
+ytick.major.width: 2
+xtick.minor.size: 3
+ytick.minor.size: 3
+xtick.minor.width: 1
+ytick.minor.width: 1
+
+# Legend settings
+legend.fontsize: 12
+legend.frameon: False
+
+# Savefig properties
+savefig.dpi: 300
+savefig.format: png
+savefig.bbox: tight
